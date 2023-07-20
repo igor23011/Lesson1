@@ -10,3 +10,11 @@ def discounted(price, discount, max_discount = 20):
        price_with_discount = price - price*discount/100
     return price_with_discount
 
+
+
+print(discounted(1000, 15))
+
+a = 8
+b = 10 
+c= a + b
+print(c)
