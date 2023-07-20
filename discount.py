@@ -10,4 +10,3 @@ def discounted(price, discount, max_discount = 20):
        price_with_discount = price - price*discount/100
     return price_with_discount
 
-print(discounted(10000, 10))
